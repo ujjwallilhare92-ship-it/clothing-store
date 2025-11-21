@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Clothing Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="font-family:Arial;text-align:center;background:#f2f2f2;padding:20px;">
+
+<h2>My Clothing Store</h2>
+
+<div style="background:white;padding:20px;border-radius:10px;max-width:320px;margin:auto;box-shadow:0 0 8px #ccc;">
+  <h3>T-Shirt / Jeans</h3>
+  <p>Trendy and quality clothing</p>
+  <h2>₹400</h2>
+
+  <button onclick="addToCart()" style="padding:10px;width:100%;margin-bottom:10px;">Add to Cart</button>
+  <button onclick="orderNow()" style="padding:10px;width:100%;">Order Now (COD)</button>
+</div>
+
+<script>
+function addToCart(){
+  alert("Added to Cart ✅");
+}
+function orderNow(){
+  alert("Order Placed ✅\nPayment: Cash on Delivery\nAmount: ₹400");
+}
+</script>
+
+</body>
+</html>
